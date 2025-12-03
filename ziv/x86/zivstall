@@ -48,9 +48,9 @@ rm -rf /usr/local/bin/ziv 1> /dev/null 2>&1
 rm -rf /usr/local/bin/zivpn 1> /dev/null 2>&1
 mkdir -p /etc/zivpn 1> /dev/null 2>&1
 mkdir -p /etc/zivpn/k/ 1> /dev/null 2>&1
-wget -O /usr/local/bin/ziv https://github.com/prjkt-nv404/ZiVPN-Manager/releases/download/release/ziv 1> /dev/null 2>&1
+wget -O /usr/local/bin/ziv https://github.com/mrzero0nol/ZiVPN-Manager/raw/main/ziv/ziv 1> /dev/null 2>&1
 chmod +x /usr/local/bin/ziv 1> /dev/null 2>&1
-wget -O /usr/local/bin/zivpn https://github.com/prjkt-nv404/ZiVPN-Manager/raw/refs/heads/main/girl/babe/kid 1> /dev/null 2>&1
+wget -O /usr/local/bin/zivpn https://github.com/mrzero0nol/ZiVPN-Manager/raw/main/girl/babe/kid 1> /dev/null 2>&1
 chmod +x /usr/local/bin/zivpn 1> /dev/null 2>&1
 wget -O /bin/udp-gw --no-cache https://github.com/vxu007/vxu/raw/main/bin/udp-gw 1> /dev/null 2>&1
 chmod +x /bin/udp-gw 1> /dev/null 2>&1

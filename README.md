@@ -4,7 +4,7 @@
 
 `made with 🤍 from Boomerang Nebula`
 
-<center><img src="https://github.com/prjkt-nv404/ZiVPN-Manager/raw/main/girl/cover.png" alt="banner" width="500"/></center>
+<center><img src="https://github.com/mrzero0nol/ZiVPN-Manager/raw/main/girl/cover.png" alt="banner" width="500"/></center>
 
 ---
 
@@ -25,7 +25,6 @@ Below are the available options:
   - Ubuntu 18+ VPS with a public IP.
 - Root or sudo access for installation and configuration.
 - Domain _(eg: zivpn.voltssh.xyz)_ - _(get a free domain from 'https://duckdns.org')_
-- An install key ```❗️``` - through our [Bot](https://t.me/voltverifybot) 🤏 or - [𝑖𝑦𝑘𝑒](https://t.me/deviyke) @deviyke 
 - Common sense
 
 #### Tested OS
@@ -37,12 +36,6 @@ Below are the available options:
 
 #### Installation
 
-Install Key:
-
-  > voltxZivpn - `removed`
-  > - click ⤵
-  > -    [here](https://github.com/prjkt-nv404/ZiVPN-Manager/#telegram)
-
 Follow these steps to install and set up ZiVPN Manager:
 
 ```
@@ -50,12 +43,7 @@ sudo -s
 ```
 #### x86-64 (non-Dockerized)
 ```
-rm -f zivstall >/dev/null 2>&1; wget "https://bit.ly/zivstall" -O zivstall.sh >/dev/null 2>&1; chmod 777 zivstall.sh;./zivstall.sh
-```
-
-#### Dockerized
-```
-rm -f dockstall.sh >/dev/null 2>&1; wget "https://bit.ly/zivstalla" -O dockstaller.sh >/dev/null 2>&1; chmod 777 dockstaller.sh;./dockstaller.sh
+rm -f zivstall.sh >/dev/null 2>&1; wget "https://raw.githubusercontent.com/mrzero0nol/ZiVPN-Manager/main/ziv/x86/zivstall" -O zivstall.sh >/dev/null 2>&1; chmod 777 zivstall.sh; ./zivstall.sh
 ```
 
 #### Usage
